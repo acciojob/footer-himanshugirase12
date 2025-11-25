@@ -4,7 +4,9 @@ body {
         background: #000;
         color: #fff;
     }
-
+.footer{
+	margin:20px;
+}
 .top{
 	display:flex;
 	justify-content:space-between;
@@ -19,6 +21,7 @@ body {
 .footer-columns {
         display: flex;
         gap: 70px;
+		margin-top:40px;
     }
 
  .footer-col h3 {
