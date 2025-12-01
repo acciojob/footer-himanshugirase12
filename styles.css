@@ -17,6 +17,7 @@ body {
 }
 .nav h1{
 	margin-left:15px;
+	
 }
 
 .icons i{
@@ -45,10 +46,12 @@ body {
 .links{
 	display:flex;
 	margin-right:20px;
+	
 }
 
 .link h3{
 	margin-left:38px;
+	text-decoration-line: underline;
 	
 }
 .link ul{
