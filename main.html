@@ -8,77 +8,161 @@
 <!-- Remix Icons CDN -->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #fff;
+    }
+
+    .footer {
+        background: #000;
+        padding-bottom: 20px;
+    }
+
+    /* NAV SECTION */
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav h1 {
+        font-weight: 100;
+        margin-left: 15px;
+    }
+
+    /* MEDIA ICONS */
+    .media-icons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .media-icons a i {
+        padding: 12px;
+        border-radius: 50%;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    #facebook { background-color: #4267B2; }
+    #twitter { background-color: #1DA1F2; }
+    #insta { background-color: #E1306C; }
+    #linkedin { background-color: #0077B5; }
+    #youtube { background-color: #FF0000; }
+
+    /* LINK BOXES */
+    .link-boxes {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+
+    .link h3 {
+        margin-left: 20px;
+		text-decoration-line: underline;
+    }
+
+    .link ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .link ul li {
+        padding-top: 12px;
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    /* FOOTER BOTTOM */
+    .foot {
+        background-color: #2C303A;
+        color: #60636A;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 30px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .foot p:nth-child(2) {
+        position: absolute;
+        right: 30px;
+    }
+
+</style>
+
 </head>
 <body>
 
-	<div class="footer">
+<div class="footer">
 
-		<div class="nav">
-			<h1 style="font-weight:100">company</h1>
+    <!-- NAV AREA -->
+    <div class="nav">
+        <h1>company</h1>
 
-			<div class="icons">
-
-				<i id="facebook" class="ri-facebook-line"></i>
-				<i id="twitter" class="ri-twitter-line"></i>
-				<i id="insta" class="ri-instagram-line"></i>
-				<i id="linkedin" class="ri-linkedin-fill"></i>
-				<i id="youtube" class="ri-youtube-line"></i>
-				
-			</div>
-		</div>
-
-		<div class="links">
-
-			<div class="link">
-        <h3>Links</h3>
-        <ul>
-            <li>Home</li>
-            <li>Contact</li>
-            <li>About</li> <!-- FIXED -->
-            <li>Get Started</li>
-        </ul>
+        <div class="media-icons">
+            <a><i id="facebook" class="ri-facebook-line"></i></a>
+            <a><i id="twitter" class="ri-twitter-line"></i></a>
+            <a><i id="insta" class="ri-instagram-line"></i></a>
+            <a><i id="linkedin" class="ri-linkedin-fill"></i></a>
+            <a><i id="youtube" class="ri-youtube-line"></i></a>
+        </div>
     </div>
 
-			<div class="link">
-				<h3>Services</h3>
-				<ul>
-					<li>App Design</li>
-					<li>Web Design</li>
-					<li>Logo Design</li>
-					<li>Banner Design</li>
-				</ul>
-			</div>
+    <!-- LINK BOXES AREA -->
+    <div class="link-boxes">
 
-			<div class="link">
-				<h3>Other services</h3>
-				<ul>
-					<li>SEO</li>
-					<li>Content Marketing</li>
-					<li>Prints</li>
-					<li>Social Media</li>
-				</ul>
-			</div>
+        <div class="link">
+            <h3>Links</h3>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li> <!-- FIXED -->
+                <li>Get Started</li>
+            </ul>
+        </div>
 
-			<div class="link">
-				<h3>Contact</h3>
-				<ul>
-					<li>+91 8879887262‬</li>
-					<li>+91 8879887262‬</li>
-					<li>contact@company.com</li>
-					
-				</ul>
-			</div>		
-		</div>
+        <div class="link">
+            <h3>Services</h3>
+            <ul>
+                <li>App Design</li>
+                <li>Web Design</li>
+                <li>Logo Design</li>
+                <li>Banner Design</li>
+            </ul>
+        </div>
 
-		<div class="foot">
+        <div class="link">
+            <h3>Other Services</h3>
+            <ul>
+                <li>SEO</li>
+                <li>Content Marketing</li>
+                <li>Prints</li>
+                <li>Social Media</li>
+            </ul>
+        </div>
 
-			<p>Copyright <i class="ri-copyright-line"></i> 2021 company</p>
-			<p>Privacy policy</p>
-				
-		<div>
+        <div class="link">
+            <h3>Contact</h3>
+            <ul>
+                <li>+91 8879887262</li>
+                <li>+91 8879887262</li>
+                <li>contact@company.com</li>
+            </ul>
+        </div>
 
-		
-	</div>
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div class="foot">
+        <p>Copyright <i class="ri-copyright-line"></i> 2021 company</p>
+        <p>Privacy policy</p>
+    </div>
+
+</div>
 
 </body>
 </html>
